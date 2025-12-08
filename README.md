@@ -17,7 +17,7 @@ This repository provides a `policies.json` file for configuring Firefox settings
 
 2. Download the `policies.json` file:
     ```cmd
-    curl -s https://raw.githubusercontent.com/mikes82pt/ff-policies/refs/heads/main/policies.json -o "C:\Program Files\Mozilla Firefox\distribution\policies.json"
+    curl -s https://raw.githubusercontent.com/lunanetdev/ff-policies/refs/heads/main/policies.json -o "C:\Program Files\Mozilla Firefox\distribution\policies.json"
     ```
 
 ### On Linux
@@ -29,5 +29,5 @@ This repository provides a `policies.json` file for configuring Firefox settings
 
 2. Download the `policies.json` file:
     ```bash
-    sudo curl -s https://raw.githubusercontent.com/mikes82pt/ff-policies/refs/heads/main/policies.json -o /etc/firefox/policies/policies.json
+    sudo curl -s https://raw.githubusercontent.com/lunanetdev/ff-policies/refs/heads/main/policies.json -o /etc/firefox/policies/policies.json
     ```
