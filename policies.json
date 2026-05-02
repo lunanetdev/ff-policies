@@ -74,6 +74,29 @@
     "NetworkPrediction": false,
     "NoDefaultBookmarks": true,
     "OfferToSaveLoginsDefault": false,
+    "Permissions": {
+      "Autoplay": {
+        "Default": "block-audio-video"
+      },
+      "Camera": {
+        "BlockNewRequests": true
+      },
+      "Location": {
+        "BlockNewRequests": true
+      },
+      "Microphone": {
+        "BlockNewRequests": true
+      },
+      "Notifications": {
+        "BlockNewRequests": true
+      },
+      "ScreenShare": {
+        "BlockNewRequests": true
+      },
+      "VirtualReality": {
+        "BlockNewRequests": true
+      }
+    },
     "PictureInPicture": {
       "Enabled": false
     },
