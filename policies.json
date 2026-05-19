@@ -24,6 +24,9 @@
       }
     },
     "AppAutoUpdate": false,
+    "Authentication": {
+      "PrivateBrowsing": false
+    },
     "AutoLaunchProtocolsFromOrigins": [
       {
         "allowed_origins": [
@@ -74,6 +77,8 @@
     "NetworkPrediction": false,
     "NoDefaultBookmarks": true,
     "OfferToSaveLoginsDefault": false,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
     "Permissions": {
       "Autoplay": {
         "Default": "block-audio-video"
@@ -127,6 +132,11 @@
         "Value": false
       },
       "browser.ml.chat.sidebar": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.newtabpage.activity-stream.showSponsoredCheckboxes": {
         "Status": "default",
         "Type": "boolean",
         "Value": false
@@ -230,6 +240,11 @@
         "Status": "default",
         "Type": "boolean",
         "Value": true
+      },
+      "signon.management.page.breach-alerts.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
       }
     },
     "Proxy": {
@@ -243,7 +258,7 @@
     "SkipTermsOfUse": true,
     "StartDownloadsInTempDirectory": false,
     "SupportMenu": {
-      "Title": "Policies 2.02",
+      "Title": "Policies 2.03",
       "URL": "https://github.com/lunanetdev/ff-policies"
     },
     "UserMessaging": {
