@@ -63,7 +63,8 @@
       "Search": true,
       "SponsoredPocket": false,
       "SponsoredTopSites": false,
-      "TopSites": true
+      "TopSites": true,
+      "Weather": false
     },
     "FirefoxSuggest": {
       "ImproveSuggest": false,
@@ -236,6 +237,11 @@
         "Type": "boolean",
         "Value": true
       },
+      "privacy.userContext.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
       "security.mixed_content.block_display_content": {
         "Status": "default",
         "Type": "boolean",
@@ -258,7 +264,7 @@
     "SkipTermsOfUse": true,
     "StartDownloadsInTempDirectory": false,
     "SupportMenu": {
-      "Title": "Policies 2.03",
+      "Title": "Policies 2.04",
       "URL": "https://github.com/lunanetdev/ff-policies"
     },
     "UserMessaging": {
