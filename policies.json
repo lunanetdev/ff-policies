@@ -142,7 +142,17 @@
         "Type": "boolean",
         "Value": false
       },
+      "browser.tabs.groups.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
       "browser.tabs.hoverPreview.showThumbnails": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.tabs.splitView.enabled": {
         "Status": "default",
         "Type": "boolean",
         "Value": false
@@ -227,6 +237,11 @@
         "Type": "boolean",
         "Value": false
       },
+      "media.videocontrols.picture-in-picture.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
       "media.videocontrols.picture-in-picture.video-toggle.enabled": {
         "Status": "default",
         "Type": "boolean",
@@ -264,7 +279,7 @@
     "SkipTermsOfUse": true,
     "StartDownloadsInTempDirectory": false,
     "SupportMenu": {
-      "Title": "Policies 2.04",
+      "Title": "Policies 2.05",
       "URL": "https://github.com/lunanetdev/ff-policies"
     },
     "UserMessaging": {
